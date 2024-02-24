@@ -1,0 +1,12 @@
+amends "./dev/package.pkl"
+
+package {
+  author = "Winch Team"
+  name = "Example Repo"
+  description = "A short example repo, to demonstrate a basic implementation of winch inside your github repository"
+  build_steps = new Listing {
+    "cd .."
+    "cargo build"
+  }
+  output_dir = "../out"
+}
