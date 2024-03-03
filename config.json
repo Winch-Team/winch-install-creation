@@ -1,0 +1,13 @@
+{
+    "package": {
+        "author": "Winch Team",
+        "name": "Example Repo",
+        "version": "1.0.5",
+        "description": "A short example repo, to demonstrate a basic implementation of winch inside your github repository",
+        "build_steps": [
+            "cd ..",
+            "cargo build"
+        ],
+        "output_dir": "../out"
+    }
+}

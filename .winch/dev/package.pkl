@@ -1,9 +1,0 @@
-class Package {
-  author: String
-  name: String
-  description: String
-  build_steps: Listing<String>
-  output_dir: String
-}
-
-package: Package?
