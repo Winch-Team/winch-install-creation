@@ -8,6 +8,10 @@
             "cd ..",
             "cargo build"
         ],
+        "dependencies": [
+            "libgegl-0.4-0",
+            "libbabl-0.1-0"
+        ],
         "output_dir": "../out"
     }
 }
