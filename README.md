@@ -1,3 +1,5 @@
 # Winch install script creation
 
-this is a script to create a winch install script that installs the package to the system for the winch package manager.
+## ARCHIVED
+
+Since we can just do this in Rust, in the main [Winch](https://github.com/Winch-Team/winch) repository, this repo is now archived.
